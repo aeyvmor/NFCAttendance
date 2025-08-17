@@ -97,7 +97,7 @@ flowchart LR
   subgraph API["Backend: Node.js + Express"]
     AUTH[JWT & RBAC]
     ATT[Attendance Logic]
-    SSE[Realtime (SSE)]
+    SSE[Realtime SSE]
   end
 
   subgraph DB["MongoDB Atlas"]
@@ -802,7 +802,7 @@ B-->C[Backend API]
 C-->D[(MongoDB Atlas)]
 C-->E[SSE]
 E-->F[Instructor Dashboard]
-C-->G[Reports Service (Python)]
+C-->G[Reports Service Python]
 ```
 
 ### Live Session (ASCII)
