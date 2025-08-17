@@ -885,4 +885,3 @@ attendance.example.edu {
 - **Manual session start** is intentional to avoid ghost sessions and to align with classroom logistics.
 - **Absent** is derived at report time (no row written), simplifying writes and idempotency.
 - Keep the LCD simple — feedback only; all complex logic remains server-side.
-- This document is intended to be committed as `docs/ARCHITECTURE.md`.
