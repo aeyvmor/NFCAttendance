@@ -122,7 +122,7 @@ flowchart LR
 
   subgraph RPT["Python Reports (FastAPI)"]
     PDF[PDF/CSV Generation]
-    ANA[Analytics (pandas)]
+    ANA[Analytics pandas]
   end
 
   RDR --> AGT --> LCD
