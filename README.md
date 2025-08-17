@@ -88,10 +88,10 @@ We are building a **reliable, fast, and low-complexity attendance system** for m
 
 ```mermaid
 flowchart LR
-  subgraph EDGE["Edge: Raspberry Pi (C++)"]
+  subgraph EDGE["Edge: Raspberry Pi C++"]
     RDR[NFC Reader]
     LCD[Small LCD]
-    AGT[Edge Agent (C++)]
+    AGT[Edge Agent C++]
   end
 
   subgraph API["Backend: Node.js + Express"]
@@ -797,7 +797,7 @@ mongoimport --uri "$MONGO_URI" --collection students     --file scripts/seed.stu
 
 ```mermaid
 graph LR
-A[NFC Tap]-->B[Pi (C++)]
+A[NFC Tap]-->B[Pi C++]
 B-->C[Backend API]
 C-->D[(MongoDB Atlas)]
 C-->E[SSE]
